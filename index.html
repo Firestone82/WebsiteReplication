@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPŠE Havířov | Student Project</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap 5 icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-toolbar">
+            <div class="container">
+                <div class="flex header-toolbar-contacts">
+                    <span>
+                        <i class="bi bi-envelope-at-fill"></i>
+                        <a href="#">kancelar.seh@sselek-havirov.cz</a>
+                    </span>
+                    <span>
+                        <i class="bi bi-telephone-fill"></i>
+                        <a href="#">596 811 132</a>
+                    </span>
+                </div>
+
+                <div class="flex header-toolbar-socials">
+                    <ul class="flex">
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <nav class="header-navbar">
+            <div class="container">
+                <div class="flex navbar-logo">
+                    <a href="#">
+                        <img src="assets/img/logo.png" alt="Logo" width="500" height="121">
+                    </a>
+                </div>
+
+                <div class="flex navbar-collapse">
+                    <ul class="flex navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">DOMŮ</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                O ŠKOLE
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Historie školy</a></li>
+                                <li><a class="dropdown-item" href="#">Aktuality</a></li>
+                                <li><a class="dropdown-item" href="#">Povinně zveřejňované informace</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/galery">Fotogalerie</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/kontakty">Kontakty</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar-search">
+                        <button class="btn-clear">
+                            <i class="bi bi-search"></i>
+                            HLEDAT
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="welcome-wrapper">
+            <div class="flex w-50">
+                <div class="invite">
+                    <h2>Pojďte studovat na <span>SPŠE Havířov</span></h2>
+                    <p>Ať už vás zajímají počítače nebo elektronika, věříme, že u nás si vyberete.</p>
+                    <div class="flex">
+                        <a class="btn btn-rounded fw-600 shadow bg-gray bg-hover" href="#">Studijní obory</a>
+                        <a class="btn btn-rounded fw-600 shadow bg-light-gray bg-hover ml-20" href="#">Příjmací řízení</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex w-50">
+                <div class="image-carousel h-100 w-100" style="clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0 100%);">
+                    <div class="carousel-item active h-100">
+                        <div class="h-100 object-cover" style="background-image: url(assets/img/carousel/1.jpeg); background-position: center center;"></div>
+                    </div>
+
+                    <div class="carousel-item h-100">
+                        <div class="h-100 object-cover" style="background-image: url(assets/img/carousel/2.jpeg); background-position: center center;"></div>
+                    </div>
+
+                    <div class="carousel-item h-100">
+                        <div class="h-100 object-cover" style="background-image: url(assets/img/carousel/3.jpeg); background-position: center center;"></div>
+                    </div>
+
+                    <div class="carousel-selector">
+                        <div class="carousel-selector-button active"></div>
+                        <div class="carousel-selector-button"></div>
+                        <div class="carousel-selector-button"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="announce-wrapper">
+            <div class="announce">
+                <h2>Náročnost se vyplatí</h2>
+                <p>SPŠE Havířov zajišťuje vzdělávání ve 2 oborech: Informační technologie a Elektrotechnika (Řídicí systémy).</p>
+            </div>
+        </div>
+
+        <div class="wrapper-separator">
+            <div class="flex w-50 m-auto">
+                <span class="separator-line"></span>
+                <div class="separator-text">Aktuality</div>
+                <span class="separator-line"></span>
+            </div>
+        </div>
+
+        <div class="article-wrapper">
+            <div class="container grid">
+                <div class="article">
+                    <div class="article-title">
+                        <h3>Informační technologie</h3>
+                        <span>03.11.2023 - 19:48</span>
+                    </div>
+                    <div class="article-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.
+                            Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.</p>
+                        <a href="/article" class="article-button btn bg-hover bg-light-gray shadow">Číst více...</a>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <h3>Informační technologie</h3>
+                        <span>03.11.2023 - 19:48</span>
+                    </div>
+                    <div class="article-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.
+                            Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.</p>
+                        <a href="/article" class="article-button btn bg-hover bg-light-gray shadow">Číst více...</a>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <h3>Informační technologie</h3>
+                        <span>03.11.2023 - 19:48</span>
+                    </div>
+                    <div class="article-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.
+                            Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.</p>
+                        <a href="/article" class="article-button btn bg-hover bg-light-gray shadow">Číst více...</a>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article-title">
+                        <h3>Informační technologie</h3>
+                        <span>03.11.2023 - 19:48</span>
+                    </div>
+                    <div class="article-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.
+                            Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.</p>
+                        <a href="/article" class="article-button btn bg-hover bg-light-gray shadow">Číst více...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-wrapper dot-background">
+            <div class="container">
+                <div class="col w-50">
+                    <div class="contact-form shadow">
+                        <h3>Kontaktujte nás</h3>
+                        <hr>
+                        <form method="post" id="contactForm">
+                            <div class="flex grid">
+                                <div class="form-item required">
+                                    <label for="name">Jméno:</label>
+                                    <input type="text" id="name" name="name" placeholder="Jméno" required maxlength="16">
+                                </div>
+
+                                <div class="form-item required">
+                                    <label for="prijmeni">Příjmení:</label>
+                                    <input type="text" id="prijmeni" name="prijmeni" placeholder="Příjmení" required maxlength="32">
+                                </div>
+
+                                <div class="form-item required">
+                                    <label for="email">E-mail:</label>
+                                    <input type="email" id="email" name="email" placeholder="E-mail" required pattern="[a-z0-9._]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                                </div>
+
+                                <div class="form-item required">
+                                    <label for="phone">Telefon:</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="Telefon" required pattern="[0-9]{9}">
+                                </div>
+
+                                <div class="form-field required">
+                                    <label for="message">Zpráva:</label>
+                                    <textarea id="message" name="message" placeholder="Zpráva" rows="7" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-buttons">
+                                <input type="submit" name="submit" value="Odeslat" id="contactFormSubmit" class="btn bg-hover bg-light-gray shadow">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col w-50">
+                    <div class="contact-image">
+                        <img src="assets/img/havirov.jpg" alt="Logo" class="shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-copy">
+            <p class="c-white">
+                <a href="https://spsehavirov.cz">© Střední průmyslová škola elektrotechnická Havířov 1985 - 2023</a>
+            </p>
+        </div>
+
+        <div class="footer-mark">
+            <p class="c-white">
+                This page is recoded website from <a href="http://spsehavirov.cz">spsehavirov.cz</a> for student project.
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/main-script.js"></script>
+</body>
+</html>
