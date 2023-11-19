@@ -25,6 +25,12 @@ body {
     align-items: center;
 }
 
+@media only screen and (max-width: 576px) {
+    .flex {
+        flex-direction: column;
+    }
+}
+
 .btn {
     text-decoration: none;
     color: white;
@@ -52,6 +58,12 @@ body {
 
 .w-50 {
     width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .w-md-100 {
+        width: 100%;
+    }
 }
 
 .w-100 {
@@ -154,6 +166,12 @@ header {
 
 .header-toolbar {
     background-color: rgba(164, 162, 162, 0.10);
+}
+
+@media only screen and (max-width: 576px) {
+    .header-toolbar {
+        display: none;
+    }
 }
 
 .header-toolbar .container {
@@ -557,6 +575,31 @@ header {
     margin-left: 0.1em;
     color: red;
 }
+
+.countdown-wrapper {
+    background-color: rgb(100, 112, 202);
+}
+
+.countdown-wrapper .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.countdown-wrapper h2 {
+    margin-bottom: 0;
+    font-weight: 800;
+    color: white;
+}
+
+#countdown {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
 
 /*
     ========== Footer ==========

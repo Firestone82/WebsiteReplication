@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>SPŠE Havířov | Student Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -87,7 +88,7 @@
 
     <div class="content">
         <div class="welcome-wrapper">
-            <div class="flex w-50">
+            <div class="flex w-50 w-md-100">
                 <div class="invite">
                     <h2>Pojďte studovat na <span>SPŠE Havířov</span></h2>
                     <p>Ať už vás zajímají počítače nebo elektronika, věříme, že u nás si vyberete.</p>
@@ -98,7 +99,7 @@
                 </div>
             </div>
 
-            <div class="flex w-50">
+            <div class="flex w-50 w-md-100">
                 <div class="image-carousel h-100 w-100" style="clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0 100%);">
                     <div class="carousel-item active h-100">
                         <div class="h-100 object-cover" style="background-image: url(assets/img/carousel/1.jpeg); background-position: center center;"></div>
@@ -125,6 +126,18 @@
             <div class="announce">
                 <h2>Náročnost se vyplatí</h2>
                 <p>SPŠE Havířov zajišťuje vzdělávání ve 2 oborech: Informační technologie a Elektrotechnika (Řídicí systémy).</p>
+            </div>
+        </div>
+
+        <div class="countdown-wrapper">
+            <div class="container">
+                <div class="countdown">
+                    <h2>Do konce školního roku zbývá:</h2>
+                </div>
+
+                <div id="countdown">
+                    <h2 id="timer">Přepočítavání...</h2>
+                </div>
             </div>
         </div>
 
@@ -244,11 +257,13 @@
 
         <div class="footer-mark">
             <p class="c-white">
-                This page is recoded website from <a href="http://spsehavirov.cz">spsehavirov.cz</a> for student project.
+                Tento web slouží pouze jako studentský projekt. Originální web zde <a href="http://spsehavirov.cz">spsehavirov.cz</a>
             </p>
         </div>
     </footer>
 
-    <script src="js/main-script.js"></script>
+    <script src="js/carousel-script.js"></script>
+    <script src="js/timer-script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

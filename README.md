@@ -4,6 +4,7 @@
 
 <p>
     <img alt="License" src="https://img.shields.io/github/license/Firestone82/VIA-ProjectB">
+    <img alt="License" src="https://img.shields.io/github/license/Firestone82/VIA-ProjectB">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/Firestone82/VIA-ProjectB">
 </p>
 
@@ -16,27 +17,26 @@ Aim of this project is to recode the website by our skills and knowledge. By fol
 requirements, we should create a website that will be as similar as possible to the original one.
 
 ## Requirements:
-- [ ] Multi-column layout of page content
-- [ ] Main menu including dynamic submenu
-- [ ] Content or image slider/carousel (according to graphic design)
-- [ ] List of articles with links to the article details
-- [ ] Contact form with validation (at least HTML 5 and styling)
-- [ ] Photo gallery with dynamic display of photos (enlarging a photo from the gallery)
-- [ ] Counter/timer (up to a certain number or based on a date) - custom JavaScript without using a third-party library!
+- [x] Multi-column layout of page content
+  - Located in `index.html` file at articles
+- [x] Main menu including dynamic submenu
+  - Located in `index.html` file at header 
+- [x] Content or image slider/carousel (according to graphic design)
+  - Located in `index.html` file at carousel 
+- [x] List of articles with links to the article details
+  - Located in `index.html` file at articles
+  - And detailed article in `/article` folder
+- [x] Contact form with validation (at least HTML 5 and styling)
+  - Located in `index.html` file at contact form 
+- [x] Photo gallery with dynamic display of photos (enlarging a photo from the gallery)
+  - Located in separate `/galery` folder 
+- [x] Counter/timer (up to a certain number or based on a date) - custom JavaScript without using a third-party library!
 - [ ] Responsive behavior of the web presentation
-- [ ] Additional elements based on content needs or chosen design
-
-## Images
-Example maze output:
-
-<p align="center">
-    <img src="assets/work/recoded.png" alt="Recoded Website"> 
-    &nbsp;
-    &nbsp;
-    &nbsp;
-    <img src="assets/work/original.png" alt="Original Website"> 
-</p>
+- [x] Additional elements based on content needs or chosen design
+  - Breadcrumbs 
+  - Social media icons
+  - Footer
 
 ## Attention
-**This project is used only for educational purposes. All rights reserved to their respective owners.**
+**This project is used only for educational purposes. All rights reserved to their respective owners.**<br>
 Original website can be found [here](https://www.spsehavirov.cz/).

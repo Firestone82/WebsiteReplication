@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         slideInterval = setInterval(() => {
             let nextIndex = (currentIndex + 1) % carouselItems.length;
             changeSlide(nextIndex);
-        }, 5000); // Change slide every 5 seconds
+        }, 5000);
     }
 
     // Initial setup of the automatic slide movement
