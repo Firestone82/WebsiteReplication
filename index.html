@@ -5,6 +5,7 @@
     <title>SPŠE Havířov | Student Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Bootstrap 5 icons -->
@@ -25,6 +26,7 @@
                         <i class="bi bi-envelope-at-fill"></i>
                         <a href="#">kancelar.seh@sselek-havirov.cz</a>
                     </span>
+
                     <span>
                         <i class="bi bi-telephone-fill"></i>
                         <a href="#">596 811 132</a>
@@ -41,17 +43,21 @@
         </div>
 
         <nav class="header-navbar">
-            <div class="container">
-                <div class="flex navbar-logo">
-                    <a href="#">
+            <div class="container nav-split">
+                <div class="navbar-logo">
+                    <a href="./index.html">
                         <img src="assets/img/logo.png" alt="Logo" width="500" height="121">
                     </a>
+
+                    <button class="nav-burger" onclick="toggleNavbar()">
+                        <i class="bi bi-list" width="50"></i>
+                    </button>
                 </div>
 
                 <div class="flex navbar-collapse">
-                    <ul class="flex navbar-nav">
+                    <ul class="flex navbar-nav navbar--closed">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">DOMŮ</a>
+                            <a class="nav-link active" aria-current="page" href="./index.html">DOMŮ</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -67,11 +73,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/galery">Fotogalerie</a>
+                            <a class="nav-link" href="./gallery.html">Fotogalerie</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/kontakty">Kontakty</a>
+                            <a class="nav-link" href="./kontakty.html">Kontakty</a>
                         </li>
                     </ul>
 
@@ -92,14 +98,14 @@
                 <div class="invite">
                     <h2>Pojďte studovat na <span>SPŠE Havířov</span></h2>
                     <p>Ať už vás zajímají počítače nebo elektronika, věříme, že u nás si vyberete.</p>
-                    <div class="flex">
+                    <div class="flex flex-gap">
                         <a class="btn btn-rounded fw-600 shadow bg-gray bg-hover" href="#">Studijní obory</a>
-                        <a class="btn btn-rounded fw-600 shadow bg-light-gray bg-hover ml-20" href="#">Příjmací řízení</a>
+                        <a class="btn btn-rounded fw-600 shadow bg-light-gray bg-hover" href="#">Příjmací řízení</a>
                     </div>
                 </div>
             </div>
 
-            <div class="flex w-50 w-md-100">
+            <div class="flex w-50 w-md-100 carousel-wrapper">
                 <div class="image-carousel h-100 w-100" style="clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0 100%);">
                     <div class="carousel-item active h-100">
                         <div class="h-100 object-cover" style="background-image: url(assets/img/carousel/1.jpeg); background-position: center center;"></div>
@@ -159,7 +165,7 @@
                     <div class="article-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.
                             Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.</p>
-                        <a href="/article" class="article-button btn bg-hover bg-light-gray shadow">Číst více...</a>
+                        <a href="./article.html" class="article-button btn bg-hover bg-light-gray shadow">Číst více...</a>
                     </div>
                 </div>
                 <div class="article">
@@ -170,7 +176,7 @@
                     <div class="article-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.
                             Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.</p>
-                        <a href="/article" class="article-button btn bg-hover bg-light-gray shadow">Číst více...</a>
+                        <a href="./article.html" class="article-button btn bg-hover bg-light-gray shadow">Číst více...</a>
                     </div>
                 </div>
                 <div class="article">
@@ -181,7 +187,7 @@
                     <div class="article-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.
                             Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.</p>
-                        <a href="/article" class="article-button btn bg-hover bg-light-gray shadow">Číst více...</a>
+                        <a href="./article.html" class="article-button btn bg-hover bg-light-gray shadow">Číst více...</a>
                     </div>
                 </div>
                 <div class="article">
@@ -192,15 +198,15 @@
                     <div class="article-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.
                             Donec euismod, nisl eget ultrices aliquam, nunc nisl ultricies nunc, nec aliquam nisl nisl vitae nunc.</p>
-                        <a href="/article" class="article-button btn bg-hover bg-light-gray shadow">Číst více...</a>
+                        <a href="./article.html" class="article-button btn bg-hover bg-light-gray shadow">Číst více...</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="contact-wrapper dot-background">
-            <div class="container">
-                <div class="col w-50">
+            <div class="container flex">
+                <div class="col w-50 contact-form-column">
                     <div class="contact-form shadow">
                         <h3>Kontaktujte nás</h3>
                         <hr>

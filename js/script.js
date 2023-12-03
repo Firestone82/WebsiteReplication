@@ -1,9 +1,14 @@
 function toggleNavbar() {
     const nav = document.querySelector('.navbar-nav');
 
-    if (nav.style.display === "block") {
-        nav.style.display = "none";
+    const navClasses = nav.classList;
+
+    if (navClasses.contains("navbar--open")) {
+        navClasses.remove("navbar--open")
+        navClasses.add("navbar--closed")
     } else {
-        nav.style.display = "block";
+        navClasses.add("navbar--open")
+        navClasses.remove("navbar--closed")
     }
 }
+
