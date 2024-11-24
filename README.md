@@ -1,6 +1,6 @@
 <img width="15%" src="assets/img/logo-alone.png" align="right" alt="Icon">
 
-# Project for VIA (Web Page recode)
+# Project for VIA: Web Page recode
 - Author: Pavel Mikula (MIK0486)
 - Took approximately 12 hours
 
