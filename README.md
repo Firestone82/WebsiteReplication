@@ -1,13 +1,6 @@
 <img width="15%" src="assets/img/logo-alone.png" align="right" alt="Icon">
 
 # Project for VIA (Web Page recode)
-
-<p>
-    <img alt="License" src="https://img.shields.io/github/license/Firestone82/VIA-ProjectB">
-    <img alt="License" src="https://img.shields.io/github/license/Firestone82/VIA-ProjectB">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/Firestone82/VIA-ProjectB">
-</p>
-
 - Author: Pavel Mikula (MIK0486)
 - Took approximately 12 hours
 
@@ -31,7 +24,7 @@ requirements, we should create a website that will be as similar as possible to 
 - [x] Photo gallery with dynamic display of photos (enlarging a photo from the gallery)
   - Located in separate `/galery` folder 
 - [x] Counter/timer (up to a certain number or based on a date) - custom JavaScript without using a third-party library!
-- [ ] Responsive behavior of the web presentation
+- [x] Responsive behavior of the web presentation
 - [x] Additional elements based on content needs or chosen design
   - Breadcrumbs 
   - Social media icons
